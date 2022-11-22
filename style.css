@@ -1,0 +1,26 @@
+body    {
+    font-family: 'Space Mono';
+    font: bold 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: ;
+    background-color: rgb(96, 163, 163);
+}
+
+body > * {
+    text-shadow: 0px 0px 1px black;
+}
+
+h2  {
+    padding-left: 15%;
+}
+
+
+img {
+    border: 10px solid rgb(79, 37, 37);
+    border-radius: 1000px;
+    width: 300px;
+    height: 300px;
+    margin: 0% 0% 0% 10%;
+}
