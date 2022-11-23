@@ -4,7 +4,7 @@ body    {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: ;
+    flex-direction: column;
     background-color: rgb(96, 163, 163);
 }
 
@@ -12,10 +12,21 @@ body > * {
     text-shadow: 0px 0px 1px black;
 }
 
-h2  {
-    padding-left: 15%;
+.sect > h2  {
+    padding-left: 25%;
+    background-color: rgb(79, 37, 37);
+    margin: 0% auto;
+    border-radius: 10px;
+
 }
 
+
+.sect > h5  {
+    padding-left: 35%;
+    background-color: rgb(79, 37, 37);
+    margin: 5% auto;
+    border-radius: 10px;
+}
 
 img {
     border: 10px solid rgb(79, 37, 37);
@@ -24,3 +35,24 @@ img {
     height: 300px;
     margin: 0% 0% 0% 10%;
 }
+
+.gft-1 {
+    border: 6px solid white;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    background-image: url("https://png.pngtree.com/png-vector/20201127/ourlarge/pngtree-cartoon-gift-box-png-image_2454304.jpg");
+    background-size: cover;
+}
+
+.gft-1:hover {
+    border: 10px solid rgb(251, 255, 0);
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    background-image: url("https://www.becomingminimalist.com/wp-content/uploads/2019/09/how-to-be-happy.jpg ");
+    background-size: cover;
+}
+
+
+/* https://www.becomingminimalist.com/wp-content/uploads/2019/09/how-to-be-happy.jpg */
