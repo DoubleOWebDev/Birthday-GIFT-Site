@@ -6,6 +6,7 @@ body    {
     align-items: center;
     flex-direction: column;
     background-color: rgb(96, 163, 163);
+    background: linear-gradient(lightgreen,brown);
 }
 
 body > * {
@@ -56,3 +57,26 @@ img {
 
 
 /* https://www.becomingminimalist.com/wp-content/uploads/2019/09/how-to-be-happy.jpg */
+
+.gft-2 {
+    border: 6px solid white;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    background-image: url("https://png.pngtree.com/png-vector/20201127/ourlarge/pngtree-cartoon-gift-box-png-image_2454304.jpg");
+    background-size: cover;
+}
+
+.gft-2:hover {
+    background-image: url("https://media3.giphy.com/media/KUTuaQe19g568/200w.webp?cid=ecf05e47v9cvl140y9mmydpvanmqcde7cg7o45sbtds7vb0v&rid=200w.webp&ct=g");
+    background-size: cover;
+}
+
+.gft-3 {
+    border: 6px solid white;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    background-image: url("https://png.pngtree.com/png-vector/20201127/ourlarge/pngtree-cartoon-gift-box-png-image_2454304.jpg");
+    background-size: cover;
+}
